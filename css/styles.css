@@ -7,4 +7,44 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    
+}
+
+.text-primary{
+    color: #3A3A3A;
+}
+
+/* Header section styles */
+header{
+    max-width: 1440px;
+    padding: 80px 120px;
+    margin: 0 auto;
+}
+
+/* Nav section related styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+nav li{
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    color: #3A3A3A;
+    font-weight: 600;
+
+}
+
+.nav-title{
+    color: #3A3A3A;
+    font-size: 1.8rem;
+    font-weight: 700;
+
 }
