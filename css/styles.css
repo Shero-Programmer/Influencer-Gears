@@ -112,10 +112,76 @@ nav li{
    
  }
 
+/* Popular section related styles */
 
+.popular-section-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
+.section-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 135px;
+    margin-bottom: 30px;
+}
+.card{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    max-width:300px;
+    max-height:476px;
+    padding: 15px;
 
+}
+.card-title{
+    color: #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 40px; 
+    margin-top: 10px;
+}
 
+.card-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.review{
+    color: #FB8200;
+    
+    
+}
+
+.review-star{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.review-number{
+    color: #5E6366;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+}
+
+.card-description{
+    color: #787885;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+    max-width: 230px;
+}
 
 
 
