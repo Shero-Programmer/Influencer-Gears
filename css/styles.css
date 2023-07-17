@@ -103,11 +103,12 @@ nav li{
 }
 
 .sponsor-img-container{
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(7, 1fr);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
    
  }
 
@@ -150,13 +151,12 @@ nav li{
 }
 
 .sponsor-img-container{
-    text-align: center;
-    align-items: center;
-    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    padding: 0 10px;
+    padding: 0 20px;
 }
-
+.sponsor-container{
+    border-top: 0;
+}
 
 }
 
@@ -167,5 +167,8 @@ nav li{
     header{
     padding: 50px 30px;
    }
+   .sponsor-img-container{
+    gap: 10px;
+    padding: 0 20px;
 }
 
